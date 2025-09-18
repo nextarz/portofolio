@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (icon) { icon.classList.add('fa-bars'); icon.classList.remove('fa-times'); }
     });
   });
-
+  
   // reset saat resize ke desktop
   window.addEventListener('resize', () => {
     if (window.innerWidth > 768) {
