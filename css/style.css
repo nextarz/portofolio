@@ -205,7 +205,7 @@ footer {
 .projects-title {
   font-size: 2.5rem;
   margin-bottom: 50px;
-  color: #fff;
+  color: #d4b68b;
 }
 
 .projects-grid {
@@ -240,6 +240,13 @@ footer {
   object-fit: cover;
 }
 
+.project-card p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ddd;
+  letter-spacing: 0.3px;
+}
 
 /* Info */
 .project-info {
