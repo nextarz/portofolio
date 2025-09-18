@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   background: #1d1a16;
-  color: #fff;
+  color: #d6c4a5;
   overflow-x: hidden;
   min-height: 100vh;
 }
@@ -27,11 +27,15 @@ main {
   padding: 20px 50px;
 }
 
-.logo {
-  color: #fff;
-  font-size: 18px;
-  letter-spacing: 1px;
+.logo img {
+  height: 70px; 
+  width: auto; 
+  object-fit: contain; 
+  display: block; 
+  display: flex;
+  align-items: center;
 }
+
 
 .nav-links {
   list-style: none;
@@ -40,7 +44,7 @@ main {
 }
 
 .nav-links li a {
-  color: #fff;
+  color: #d6c4a5;
   text-decoration: none;
   font-size: 16px;
   transition: color 0.3s ease;
@@ -71,7 +75,7 @@ main {
 /* Text */
 .hero-text p {
   font-size: 16px;
-  color: #dcdcdc;
+  color: #d6c4a5;
 }
 
 .hero-text h1 {
@@ -83,7 +87,7 @@ main {
 .hero-text h3 {
   font-size: 16px;
   font-weight: 400;
-  color: #bfbfbf;
+  color: #d6c4a5;
   margin-bottom: 20px;
 }
 
@@ -136,7 +140,7 @@ footer {
   padding: 20px;
   background: #14120f;
   font-size: 14px;
-  color: #aaa;
+  color: #d6c4a5;
   margin-top: auto;
 }
 
@@ -156,7 +160,7 @@ footer {
 .menu-toggle {
   display: none;
   font-size: 24px;
-  color: #fff;
+  color: #d6c4a5;
   cursor: pointer;
   background: transparent;
   border: none;
@@ -180,7 +184,7 @@ footer {
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 30px;
-  color: #ccc;
+  color: #d6c4a5;
 }
 
 .about-content h2 {
@@ -193,7 +197,7 @@ footer {
   list-style: disc inside;
   font-size: 16px;
   line-height: 1.6;
-  color: #ccc;
+  color: #d6c4a5;
 }
 
 /* Projects Section */
@@ -246,7 +250,9 @@ footer {
   line-height: 1.6;
   letter-spacing: 0.3px;
 }
-
+.project-card a {
+  text-decoration: none;
+}
 /* Info */
 .project-info {
   padding: 20px;
@@ -256,12 +262,12 @@ footer {
 .project-info h2 {
   font-size: 1.5rem;
   margin-bottom: 12px;
-  color: #ccc;
+  color: #d6c4a5;
 }
 
 .project-info p {
   font-size: 1rem;
-  color: #ccc;
+  color: #d6c4a5;
 }
 
 /* Mobile styles */
@@ -302,7 +308,7 @@ footer {
   }
 
   .nav-links li a:hover {
-    color: #fff;
+    color: #d6c4a5;
   }
   
   .social-links {
