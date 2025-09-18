@@ -220,6 +220,7 @@ footer {
 
 .project-card {
   background-color: #d4b68b;
+  border: 2px solid #494033;
   border-radius: 20px;
   overflow: hidden;
   max-width: 300px;
